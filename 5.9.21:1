@@ -12,3 +12,11 @@ else:
         print(b, "is biggest")
     else:
         print(c, "is biggest")
+# if elif else positive negative zero
+num = float(input('your number: '))
+if num > 0:
+    print('positive number')
+elif num == 0 :
+    print('zero')
+else:
+    print('negative number')
