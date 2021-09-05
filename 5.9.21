@@ -3,3 +3,11 @@ first_digit = two_digit_number[0]
 second_digit = two_digit_number[1]
 result = int(first_digit) + int(second_digit)
 print(result)
+# this is the next example 
+pizza = int(input('how many pizzas?'))
+print('your' ,  pizza, 'slices')
+kids = int(input('how many kids?'))
+slices_each_kid = pizza // kids
+left_over = pizza % kids
+print('each kid got', slices_each_kid, 'slices')
+print('leftovers =', left_over)
