@@ -1,0 +1,25 @@
+###Question Number 1
+Number = int(input('Enter your number to check if it can be divided by 10 : '))
+    if Number % 2 == 0:
+        print('The number can be divided by 10')
+    elif Number % 5 == 0:
+        print('The number can be divided by 10')
+    else:
+        print('The number cant be divided by 10')
+### 
+# Question Number 2
+Numb = int(input('Your Number'))
+if Numb == -1:
+   print('-1')
+elif Numb == 1:
+   print('1')
+elif Numb == 0:
+   print('0')
+else:
+   print('unknow number')
+###
+#Qestion Number 3
+numb = int(input('Your number?'))
+if 10 <= numb < 99:
+    print('Ahadot Number: ' + str(numb)[1])
+###
