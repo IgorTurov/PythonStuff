@@ -1,4 +1,5 @@
-###Question Number 1
+###
+# Question Number 1
 Number = int(input('Enter your number to check if it can be divided by 10 : '))
     if Number % 2 == 0:
         print('The number can be divided by 10')
@@ -18,8 +19,18 @@ elif Numb == 0:
 else:
    print('unknow number')
 ###
-#Qestion Number 3
+# Qestion Number 3
 numb = int(input('Your number?'))
 if 10 <= numb < 99:
     print('Ahadot Number: ' + str(numb)[1])
 ###
+# Question Number 4
+number = int(input("enter a number"))
+
+asarot = number // 10
+ahadot = number % 10
+
+if asarot <= ahadot and ahadot <= asarot:
+    print("the number is even")
+else:
+    print("the number is odd")
