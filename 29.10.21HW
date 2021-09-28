@@ -36,3 +36,11 @@ def print_factors(x):
 num = int(input('Your Number : '))
 
 print_factors(num)
+
+
+#question 10
+
+
+num = input('Your Number : ')
+print(num[0])
+
