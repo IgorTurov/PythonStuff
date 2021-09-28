@@ -44,3 +44,14 @@ print_factors(num)
 num = input('Your Number : ')
 print(num[0])
 
+
+# question 12 
+
+
+n=int(input('your number : '))
+total  =0
+while(n>0):
+    dig=n%10
+    total =total+dig
+    n=n//10
+print(total)
